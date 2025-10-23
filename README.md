@@ -11,7 +11,6 @@ Focus areas: arrangement & description, metadata crosswalks, ingest workflows, q
 ## Table of Contents
 - [Purpose](#purpose)
 - [Scope & Assumptions](#scope--assumptions)
-- [Governance & Roles](#governance--roles)
 - [Process Overview](#process-overview)
 - [Information Model](#information-model)
   - [Controlled Series (S1–S10)](#controlled-series-s1s10)
@@ -36,19 +35,6 @@ Document a **repeatable, evidence-based** approach to standardize, combine, and 
 - **Content types:** Administrative records, formation/membership, ministries (education/health/social/pastoral), visual materials, AV/oral histories, legal/financial, digital assets.
 - **Outcomes:** Unified series model, clean crosswalks, validated ingest packages, and public-facing description with appropriate restrictions.
 
----
-
-## Governance & Roles
-| Role | Responsibilities |
-|---|---|
-| Project Lead | Scope, timeline, decision log, risk mgmt. |
-| Arrangement Lead | Series mapping, folder structure, finding aid synthesis. |
-| Metadata Lead | Crosswalks (EAD/DC), controlled vocabularies, data validation. |
-| Systems Lead | ArchivesSpace/OAI/exports, Omeka S mappings, integrations. |
-| Preservation Lead | PREMIS events, storage tiers, checksums, fixity. |
-| QA Coordinator | Sampling plans, acceptance criteria, remediation cycles. |
-
-*RACI is defined per workstream in `/docs/governance/`.*
 
 ---
 
