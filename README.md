@@ -3,8 +3,8 @@
 **Standardized process to assess, normalize, and merge collections from multiple women religious repositories into a single, sustainable archival repository.**  
 Focus areas: arrangement & description, metadata crosswalks, ingest workflows, quality assurance, rights & restrictions, and long-term stewardship.
 
-> Standards: **DACS**, **EAD**, **Dublin Core**, **PREMIS**, **AAT/FAST/LCNAF**, **IIIF (optional)**  
-> Target systems (example): **ArchivesSpace** for description; **Omeka S** (or similar) for public delivery.
+> Standards: **DACS**, **EAD**, **Dublin Core**, **PREMIS**
+> Target systems: **ArchivesSpace** for description; **Omeka S** (or similar) for public delivery.
 
 ---
 
