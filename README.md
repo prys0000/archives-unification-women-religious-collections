@@ -21,7 +21,6 @@ Focus areas: arrangement & description, metadata crosswalks, ingest workflows, q
 - [Quality Assurance](#quality-assurance)
 - [Policies & Ethics](#policies--ethics)
 - [Repository Structure](#repository-structure)
-- [How to Use This Playbook](#how-to-use-this-playbook)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -74,7 +73,7 @@ Document a **repeatable, evidence-based** approach to standardize, combine, and 
 
 ### Identifiers & Filenaming
 - Pattern: `COLLID-SERIES-SUBSERIES-BOX-FOLDER-ITEM` (zero-padded).  
-  Example: `WR004-S2-4-0002-0001-0003` → collection WR004, Series S2 (Membership), Subseries 4 (Novitiate).
+  Example: `HARC-004-(S)2-(SS)4-(BOX)0002-(FOLDER)0001-(ITEM)0003` → collection HARC-004, Series S2 (Membership), Subseries 4 (Novitiate).
 - Digital masters: `{identifier}__pm.tif` (preservation master); access: `{identifier}__ac.jpg` / `{identifier}__ac.mp4`.
 
 ### Containers & Locations
@@ -105,7 +104,12 @@ Document a **repeatable, evidence-based** approach to standardize, combine, and 
 **Acceptance criteria (per batch)**
 - ✅ All described units mapped to S1–S10 with subseries where applicable.  
 - ✅ Required metadata present (title, date, extent, scope/abstract, creator, identifiers).  
-- ✅ Authorities validated against AAT/FAST/LC where used.  
+- ✅ Authorities validated against AAT/FAST/LC where used.
+  - ***AAT (Getty Art & Architecture Thesaurus)***: controlled terms for genre/form, materials, techniques, and object types (e.g., photographs, bronze (alloy), altar frontals).
+  - ***LC (Library of Congress)***:
+    - ***LCNAF (Name Authority File)***: people and corporate bodies (e.g., Sisters of Charity of the Blessed Virgin Mary).
+    - ***LCSH (Subject Headings)***: full subject strings (you can use FAST instead when you want faceting).
+- ***FAST (OCLC Faceted Application of Subject Terminology)***: simplified subjects derived from LCSH, with separate facets like Topic, Place, Time, Form/Genre, Corporate/Personal (e.g., Women religious (Topic), Dubuque (Iowa) (Place)).
 - ✅ Digital objects linked; derivatives present for public access.  
 - ✅ Restrictions and rights statements applied consistently.
 
@@ -128,3 +132,7 @@ Document a **repeatable, evidence-based** approach to standardize, combine, and 
 ---
 
 ## Repository Structure
+
+## Contributing
+
+## License
