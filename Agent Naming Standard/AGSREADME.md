@@ -2,6 +2,8 @@
 
 To support cross-congregation discovery, de-duplication, and stable ArchivesSpace agent creation, the portal uses one consistent display label format for women religious.
 
+#### Use the Agent/Sister Naming Worksheets Guide
+
 ## Portal display label (canonical)
 #### Title Religious Name, Congregation (Birth Name), DOB–DOD
 
