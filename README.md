@@ -16,6 +16,7 @@ Focus areas: arrangement & description, metadata crosswalks, ingest workflows, q
 - [Information Model](#information-model)
   - [Controlled Series (S1–S10)](#controlled-series-s1s10)
   - [Subseries](#subseries)
+  - [Agent Naming Standard](#agent-naming-standard-women-religious)
   - [Arrangement Principles](#arrangement-principles)
   - [Identifiers & Filenaming](#identifiers--filenaming)
   - [Containers & Locations](#containers--locations)
@@ -141,6 +142,50 @@ A supporting set of scripts operationalizes these rules by:
 | 10 | 10.3 | External Publications and Reports | Publications from other religious congregations, church documents, and related materials | example (1900-present) |  |  |
 | 10 | 10.4 | Research Project Files | Working files from historical research, dissertations, and scholarly projects | example (1950-present) |  |  |
 
+### Agent Naming Standard (Women Religious)
+
+To support cross-congregation discovery, de-duplication, and stable ArchivesSpace agent creation, the portal uses one consistent display label format for women religious.
+
+#### Portal display label (canonical)
+**Title Religious Name, Congregation (Birth Name), DOB–DOD**
+
+**Example:**  
+**Sister Ellen, Sisters of Charity of the Blessed Virgin Mary (Agatha Hurley), 1826-1902**
+
+Why this works:
+- improves search and filtering across congregations
+- reduces duplicate-name collisions (e.g., “Sister Mary Joseph”)
+- preserves identity context (congregation + birth name + life dates)
+- remains stable even when source spellings vary
+
+> **Note:** The ArchivesSpace **Agent** record stores additional identifying details and variant name forms.
+
+#### Rules for building the label
+Use these rules consistently:
+- **Title:** use `Sister` unless a more specific title is known (e.g., `Mother`).
+- **Religious name:** use the preferred form from the partner authority worksheet.
+- **Congregation:** use the standardized congregation string (consistent spelling).
+- **Birth name:** include in parentheses **only if known**.
+- **Dates:** use `YYYY-YYYY` when possible (or `YYYY-` / `-YYYY` if partial dates are allowed).
+
+Omit safely when unknown:
+- if birth name unknown → omit parentheses entirely
+- if dates unknown → omit the date portion entirely
+
+**Examples:**
+- **Full:** Sister Ellen, Sisters of Charity of the Blessed Virgin Mary (Agatha Hurley), 1826-1902
+- **No birth name:** Sister Ellen, Sisters of Charity of the Blessed Virgin Mary, 1826-1902
+- **No dates:** Sister Ellen, Sisters of Charity of the Blessed Virgin Mary (Agatha Hurley)
+
+#### Partner workflow (required for consistency)
+1) Maintain a congregation authority worksheet (preferred name + variants; variants separated by semicolons).  
+2) Run extraction to collect candidate names/roles/places from narrative fields.  
+3) Standardize names using the authority worksheet (preferred → canonical).  
+4) Populate the staging sheet (one person per row) for ArchivesSpace agent bulk upload.
+
+> Reminder: For ArchivesSpace agent bulk upload, **one row = one person**. If a biography mentions multiple sisters, split them into separate rows.
+
+
 ### Arrangement Principles
 - Function/provenance first (e.g., Governance vs. Formation vs. Ministries); format second where appropriate (e.g., S9).
 - Keep documentation with the record it documents (e.g., commission files with commissioned artworks).
@@ -148,7 +193,7 @@ A supporting set of scripts operationalizes these rules by:
 
 ### Identifiers & Filenaming
 - Pattern: `HARC_COLLID_SERIES_SUBSERIES_(FILE)_BOX_FOLDER_ITEM` (zero-padded 0000).  
-  Example: `HARC-004-(S)2-(SS)4-(BOX)0002-(FOLDER)0001-(ITEM)0003` → collection HARC-004, Series S2, Subseries 4.
+  **Example:** `HARC-004-(S)2-(SS)4-(BOX)0002-(FOLDER)0001-(ITEM)0003` → collection HARC-004, Series S2, Subseries 4.
 - Digital masters: `{identifier}__pm.tif` (preservation master); access: `{identifier}__ac.jpg` / `{identifier}__ac.mp4`.
 
 ### Containers & Locations
