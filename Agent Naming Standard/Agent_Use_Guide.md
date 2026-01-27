@@ -1,4 +1,4 @@
-## Agent/Sister Naming Worksheets: What We Collect vs What We Upload
+# Agent/Sister Naming Worksheets: What We Collect vs What We Upload
 
 This project distinguishes between (1) **preservation-grade backend data** collected for archival longevity and identity management, and (2) a **curated subset** used for **public discovery** and **bulk uploads**. The bulk upload sheet is treated as a reproducible export derived from the master worksheet—not the authoritative record.
 
