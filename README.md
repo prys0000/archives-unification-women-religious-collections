@@ -142,6 +142,8 @@ A supporting set of scripts operationalizes these rules by:
 | 10 | 10.3 | External Publications and Reports | Publications from other religious congregations, church documents, and related materials | example (1900-present) |  |  |
 | 10 | 10.4 | Research Project Files | Working files from historical research, dissertations, and scholarly projects | example (1950-present) |  |  |
 
+---
+
 ### Agent Naming Standard (Women Religious)
 
 To support cross-congregation discovery, de-duplication, and stable ArchivesSpace agent creation, the portal uses one consistent display label format for women religious.
@@ -152,7 +154,7 @@ To support cross-congregation discovery, de-duplication, and stable ArchivesSpac
 **Example:**  
 **Sister Ellen, Sisters of Charity of the Blessed Virgin Mary (Agatha Hurley), 1826-1902**
 
-Why this works:
+**Why this works:**
 - improves search and filtering across congregations
 - reduces duplicate-name collisions (e.g., “Sister Mary Joseph”)
 - preserves identity context (congregation + birth name + life dates)
@@ -185,6 +187,7 @@ Omit safely when unknown:
 
 > Reminder: For ArchivesSpace agent bulk upload, **one row = one person**. If a biography mentions multiple sisters, split them into separate rows.
 
+---
 
 ### Arrangement Principles
 - Function/provenance first (e.g., Governance vs. Formation vs. Ministries); format second where appropriate (e.g., S9).
