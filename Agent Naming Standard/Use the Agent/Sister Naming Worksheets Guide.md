@@ -6,7 +6,7 @@ This project distinguishes between (1) **preservation-grade backend data** colle
 
 ## What the two attached worksheets represent
 
-### `names metadata-cjhat.xlsx` (metadata collection worksheet example)
+### `names_metadata_template.xlsx` (metadata collection worksheet example)
 This is the **rich capture layer** (what we *collect*). It currently includes fields such as:
 
 - `dcterms:identifier`
@@ -27,7 +27,7 @@ This is the **rich capture layer** (what we *collect*). It currently includes fi
 
 > Note: This file includes an empty/unnamed column header (a blank column). Remove it to avoid transform issues.
 
-### `names-csv-chuck-text.xlsx` (ArchivesSpace upload staging)
+### `names_csv_chunk_transform.csv` (ArchivesSpace upload staging)
 This is the **upload-facing layer** (what we *push*). It contains core name/date fields plus operational columns such as:
 
 - `NOTES` (critical for preserving legacy IDs, variant forms, provenance, and normalization decisions)
