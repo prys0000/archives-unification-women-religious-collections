@@ -146,7 +146,7 @@ A supporting set of scripts operationalizes these rules by:
 
 ### Agent Naming Standard (Women Religious)
 
-To support cross-congregation discovery, de-duplication, and stable ArchivesSpace agent creation, the portal uses one consistent display label format for women religious.
+To support cross-congregation discovery, de-duplication, and stable ArchivesSpace agent creation, the portal uses one consistent display label format for women religious. Use the [Agent Naming Standard/Agent_Use_Guide.md](Agent Naming Standard/Agent_Use_Guide.md).
 
 #### Portal display label (canonical)
 **Title Religious Name, Congregation (Birth Name), DOB–DOD**
