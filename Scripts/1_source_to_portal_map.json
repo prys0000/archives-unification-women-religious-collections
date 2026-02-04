@@ -1,0 +1,16 @@
+{
+  "input_sheet": "Sheet1",
+  "portal_rules": {
+    "Title":        {"source": "title", "transforms": ["strip", "collapse_ws"]},
+    "Dates":        {"source": "Dates", "transforms": ["strip"]},
+    "Abstract":     {"source": "Description", "transforms": ["strip", "collapse_ws"]},
+    "Subjects":     {"source": "Key words/Subjects", "transforms": ["norm_semicolons"]},
+    "Language":     {"source": "Languages", "transforms": ["strip"]},
+    "Series":       {"source": "Series", "transforms": ["strip"]},
+    "Sub-series":   {"source": "Sub-series (if applicable)", "transforms": ["strip"]},
+    "Extent":       {"source": "__DERIVED__", "derive": "extent_join"}
+  },
+  "constants": {
+    "Contributing Hub": "HARC"
+  }
+}
