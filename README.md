@@ -16,7 +16,7 @@ This project establishes scalable methodologies for:
 
 ---
 
-# 🚨 Project Update — OLVM Collection Ingest & the Linear Reciprocity Model
+# 🖱️➜ [Project Update — OLVM Collection Ingest & the Linear Reciprocity Model](https://github.com/prys0000/archives-unification-women-religious-collections/blob/be18c78e8fbe8a133480975079380d82cb184cc8/Project-Update.md)
 
 > ## Major Operational Development
 >
