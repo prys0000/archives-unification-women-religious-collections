@@ -1,0 +1,36 @@
+# Repository Manifest
+
+- `README.md`
+- `docs/README.md`
+- `docs/congregations/bvm-dubuque.md`
+- `docs/congregations/most-precious-blood.md`
+- `docs/congregations/olvm-victory-noll.md`
+- `docs/congregations/st-casimir.md`
+- `docs/congregations/st-francis-holy-cross.md`
+- `docs/crosswalks/archivesspace-to-napwr.md`
+- `docs/crosswalks/ead-to-omeka.md`
+- `docs/crosswalks/name-authority-fields.md`
+- `docs/methodology/adaptive-learning-model.md`
+- `docs/methodology/full-operational-lrm-framework.md`
+- `docs/methodology/full-project-and-portal-overview.md`
+- `docs/methodology/linear-reciprocity-model.md`
+- `docs/methodology/portal-methodology.md`
+- `docs/methodology/quality-assurance.md`
+- `docs/portal/architecture.md`
+- `docs/portal/chatbot.md`
+- `docs/portal/collection-search.md`
+- `docs/portal/sisters-name-index.md`
+- `examples/README.md`
+- `examples/audit-output/example-audit.csv`
+- `examples/normalized-ingest/example-normalized-ingest.csv`
+- `templates/NAPWR-import-template-dcterms.csv`
+- `templates/README.md`
+- `templates/validation-templates/authority-reconciliation-template.csv`
+- `templates/validation-templates/exception-log.csv`
+- `templates/validation-templates/validation-checklist.csv`
+- `tools/README.md`
+- `tools/archivesspace-import/README.md`
+- `tools/authority-reconciliation/README.md`
+- `tools/ead-to-omeka/README.md`
+- `tools/media-validation/README.md`
+- `tools/spreadsheet-normalization/README.md`

@@ -1,0 +1,2 @@
+﻿exception_id,congregation,source_file,source_record,category,description,resolution,rule_id,review_status,reviewer
+EX-0001,EXAMPLE,source.xml,component-001,date,Example only: ambiguous date expression,,,Open,

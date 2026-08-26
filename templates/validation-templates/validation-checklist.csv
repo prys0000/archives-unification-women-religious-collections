@@ -1,0 +1,2 @@
+﻿record_id,check_category,check_name,status,severity,message,reviewer,review_date
+EXAMPLE-001,structure,parent_child_relationship,PASS,High,,,

@@ -1,0 +1,2 @@
+﻿source_file,source_component_id,source_level,output_identifier,title,creator_source,date_source,inherited_fields,media_source,warnings,transformation_version
+example.xml,c01,file,EXAMPLE-001,Synthetic Example Record,explicit,title-derived,,https://example.org/example.jpg,Example only: review derived date,0.1-example
