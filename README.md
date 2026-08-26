@@ -137,3 +137,16 @@ Portal documentation describes discovery architecture and AI-assisted access. To
 ## Status
 
 This repository is living documentation. It should evolve as additional congregations, hubs, source systems, authority structures, and discovery requirements are incorporated into NAPWR.
+
+# Licensing & Reuse
+
+To maximize the openness, searchability, and longevity of historical research, the assets in this repository are split under separate open licensing terms:
+
+* **Code & Page Architecture:** The underlying software scripts, functional layouts, and site templates are licensed under the [MIT License](LICENSE).
+* **Content & Narrative Templates:** General text, written frameworks, and documentation styles are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org).
+* **Data, Schemas & Metadata:** All data models, front-matter YAML templates, mapping schemas, and archival metadata collections are dedicated to the public domain under [Creative Commons CC0 1.0 Universal](https://creativecommons.org).
+
+## Attribution Requirement
+If you fork this repository, adapt the schemas, or reuse these templates for other digital humanities or archival unification efforts, you must provide attribution back to the source:
+`Adapted from the [Archives Unification for Women Religious Collections](https://github.com/prys0000/archives-unification-women-religious-collections) project by @prys0000.`
+
