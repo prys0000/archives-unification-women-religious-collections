@@ -927,14 +927,16 @@ Participation should be designed around a low technical barrier: repositories sh
 
 # Licensing & Reuse
 
-This project separates its assets under different licenses to maximize utility and clarity:
+To maximize the openness, searchability, and longevity of historical research, the assets in this repository are split under separate open licensing terms:
 
-* **Code & Architecture:** All software, functional code, and layout templates are licensed under the [MIT License](LICENSE).
-* **Content & Templates:** Textual content, structural templates, and website designs are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org).
-* **Data & Metadata:** All configuration files, front-matter schemas, and metadata are dedicated to the public domain under [Creative Commons CC0 1.0 Universal](https://creativecommons.org).
+* **Code & Page Architecture:** The underlying software scripts, functional layouts, and site templates are licensed under the [MIT License](LICENSE).
+* **Content & Narrative Templates:** General text, written frameworks, and documentation styles are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org).
+* **Data, Schemas & Metadata:** All data models, front-matter YAML templates, mapping schemas, and archival metadata collections are dedicated to the public domain under [Creative Commons CC0 1.0 Universal](https://creativecommons.org).
 
 ## Attribution Requirement
-If you fork this repository or reuse the templates, you must provide attribution by linking back to this original repository: `Template provided by [Your Name](https://github.com)`
+If you fork this repository, adapt the schemas, or reuse these templates for other digital humanities or archival unification efforts, you must provide attribution back to the source:
+`Adapted from the [Archives Unification for Women Religious Collections](https://github.com/prys0000/archives-unification-women-religious-collections) project by @prys0000.`
+
 
 
 ---
