@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you utilize these unification schemas, metadata formats, or template structures, please cite this project as follows."
+authors:
+  - alias: "prys0000"
+title: "Archives Unification for Women Religious Collections"
+version: "1.0.0"
+date-released: 2026-08-26
+url: "https://github.com/prys0000/archives-unification-women-religious-collections"
