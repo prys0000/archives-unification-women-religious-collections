@@ -18,7 +18,7 @@ This case record documents the source systems, reconciliation decisions, transfo
 |---|---|---|---|---|
 | Physical archival collection | Boxes / folders | Entire transferred collection | Primary contextual evidence | `HARC Archives: HARC_001` |
 | Legacy collection inventory | XLSX | Collection and file-level description | Primary legacy description | Internal server - HARC-1 |
-| Existing finding aid | EAD XML | Collection hierarchy | Authoritative descriptive derivative | `[path]` | Internal server - HARC-1 |
+| Existing finding aid | EAD XML | Collection hierarchy | Authoritative descriptive derivative | Internal server - HARC-1 |
 | Current ArchivesSpace record | ArchivesSpace | Resource + archival objects | Current system of record | [ArchivesSpace record](https://harc.libraryhost.com/repositories/2/resources/3) |
 | Digital files | AWS S3 | Digitized subset | Digital-control evidence | `[s3://harc-collections/HARC-001 - Sisters of Charity of the Blessed Virgin Mary Collection/]` |
 | NAPWR ingest dataset | CSV / DCTERMS | Public discovery subset | Normalized derivative | `[s3://harc-collections/HARC-001 - Sisters of Charity of the Blessed Virgin Mary Collection/]` |
