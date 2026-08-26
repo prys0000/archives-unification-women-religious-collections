@@ -20,9 +20,14 @@ The case file is deliberately separate from the general methodology. The methodo
 
 Document all source environments used for this collection.
 
-| Source | Format/System | Scope | Authority Level | Notes |
-|---|---|---|---|---|
-| [add] | spreadsheet / EAD / ArchivesSpace / database / physical inventory | [add] | source / derivative / working | [add] |
+| Source | Format / System | Scope | Authority Level | Path|
+|---|---|---|---|---|---|---|---|
+| Physical archival collection | Boxes / folders | Entire transferred collection | Primary contextual evidence | HARC ARCHIVES: HARC_001
+| Legacy collection inventory | XLSX | Collection and file-level description | Primary legacy description | source-data/legacy/OLVM_Master_Inventory.xlsx
+| Existing finding aid | EAD XML | Collection hierarchy | Authoritative descriptive derivative | source-data/ead/HARC_010.xml |
+| Current ArchivesSpace record | ArchivesSpace | Resource + archival objects | Current system of record | [ASpace URL](https://harc.libraryhost.com/repositories/2/resources/3) |
+| Digital files | AWS S3 / Digitized subset | Digitized subset | Digital-control evidence | harc-collections/HARC-010/ |
+| NAPWR ingest dataset | CSV / DCTERMS | Public discovery subset | Normalized derivative | outputs/napwr/HARC_010_NAPWR.csv |
 
 ## Recurring Challenge Classes
 
@@ -56,13 +61,14 @@ Questions:
 - Which legacy numbers or labels remain significant?
 - What should never be collapsed into a generic term without retaining the original?
 
-## Legacy-to-Normalized Mapping
+## Arrangement Principles Applied
 
-| Legacy / Local Value | Normalized Value | Preserve Variant? | Mapping Rationale |
-|---|---|---:|---|
-| [add] | [add] | Yes/No | [add] |
-
-## Hierarchy and Arrangement Decisions
+- Existing box and folder numbers were preserved unless a control problem required intervention.
+- Physical order was not changed solely to conform to a standardized intellectual hierarchy.
+- Legacy functional, ministry, apostolate, and administrative relationships were retained as contextual metadata where they differed from the normalized hierarchy.
+- Arrangement changes were made only when supported by documentary, physical, or provenance evidence.
+- Ambiguous relationships were documented rather than silently resolved.
+- Standardization was applied to improve interoperability without erasing congregation-specific organizational logic.
 
 Document:
 
@@ -120,12 +126,6 @@ Check/update as applicable:
 
 Record script/tool versions when available.
 
-## Exceptions
-
-| Exception ID | Source Record | Category | Description | Resolution | Rule Reusable? |
-|---|---|---|---|---|---|
-| [add] | [add] | structural / semantic / authority / media / provenance | [add] | [add] | Yes/No |
-
 ## QA Summary
 
 Document:
@@ -172,8 +172,4 @@ Describe which observations from this collection:
 - reveal a collection-specific exception;
 - identify a new class of archival drift.
 
-## Change Log
-
-| Date | Change | Author/Reviewer |
-|---|---|---|
 | [add] | Initial case documentation | [add] |
