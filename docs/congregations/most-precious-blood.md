@@ -122,20 +122,6 @@ Where evidence was insufficient, relationships were documented as uncertain rath
 
 ---
 
-# Legacy-to-Normalized Mapping
-
-Because no comprehensive legacy finding aid or inventory was provided, "legacy" in this case frequently refers to terminology embedded within the records, object labels, digital filenames, or congregational knowledge rather than a formal inherited metadata system.
-
-| Legacy / Local Value | Type | Normalized Value | Preserve Variant? | Rationale |
-|---|---|---|---:|---|
-| `local ministry term` | Ministry / Function | `[normalized term]` | Yes | Local terminology preserves congregational context while normalized form supports cross-repository discovery |
-| `institution / house name` | Organization / Place | `[authorized form]` | Yes | Standardized form improves discovery while retaining historical usage |
-| `Sister's name as identified on artwork` | Person / Creator / Subject | `[authorized or preferred form]` | Yes | Identification supplied by congregation should remain traceable to the form originally provided |
-| `digital filename terminology` | Subject / Object / Local label | `[normalized descriptive value]` | Yes, where meaningful | Filename may provide contextual evidence even when it does not constitute formal archival description |
-| `unidentified / uncertain term` | Unknown | `[leave unresolved]` | Yes | Insufficient evidence; normalization deferred rather than guessed |
-
----
-
 # Metadata, Authorities, and Digital Objects
 
 | Area | Issues / Decisions |
