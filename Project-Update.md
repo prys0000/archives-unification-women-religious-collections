@@ -1,8 +1,8 @@
-# Operationalizing the Linear Reciprocity Model Through Multi-Collection Archival Ingest and Reconciliation at HARC/NAPWR
+# Operationalizing the Linear Reciprocity Model Through Multi-Collection Archival Ingest and Reconciliation at Multi-Collection Repositories/NAPWR
 
 ## Introduction
 
-The ingest and reconciliation work undertaken across multiple women religious collections at HARC and within the broader NAPWR environment demonstrates a practical implementation of the **Linear Reciprocity Model (LRM)** within a live, distributed archival setting.
+The ingest and reconciliation work undertaken across multiple women religious collections at Multi-Collection Repositories and within the broader NAPWR environment demonstrates a practical implementation of the **Linear Reciprocity Model (LRM)** within a live, distributed archival setting.
 
 Across congregational collections, the same categories of archival friction have appeared repeatedly:
 
@@ -19,7 +19,7 @@ Across congregational collections, the same categories of archival friction have
 
 These recurring conditions indicate that the problems are not unique to a single collection. They are characteristic of distributed archival environments in which records have accumulated across decades, custodians, repositories, software systems, and descriptive practices.
 
-The framework therefore formalizes an operational model HARC and NAPWR can use when ingesting collections from external repositories, congregations, ministries, and partner institutions.
+The framework therefore formalizes an operational model Multi-Collection Repositories and NAPWR can use when ingesting collections from external repositories, congregations, ministries, and partner institutions.
 
 Rather than treating archival ingest as a simple metadata transfer process, the model understands ingest as a reciprocal restructuring event among:
 
@@ -143,7 +143,7 @@ Instead, archival systems should reciprocally adapt to the informational logic p
 - computational processing
 - cross-repository research
 
-The multi-collection work at HARC/NAPWR demonstrates that archival ingest is better understood as:
+The multi-collection work at Multi-Collection Repositories/NAPWR demonstrates that archival ingest is better understood as:
 
 > A reciprocal negotiation among legacy organizational structures, archival standards, technical systems, physical evidence, and contemporary access requirements.
 
@@ -159,7 +159,7 @@ Rather than replacing legacy systems outright, the ingest process:
 
 ---
 
-# The HARC/NAPWR Ingest and Reconciliation Framework
+# The Multi-Collection Repositories/NAPWR Ingest and Reconciliation Framework
 
 # Stage 1 — Preservation of Original Informational Context
 
@@ -541,7 +541,7 @@ Ignoring these realities can produce:
 
 ---
 
-# HARC/NAPWR Reciprocal Ingest Philosophy
+# Multi-Collection Repositories/NAPWR Reciprocal Ingest Philosophy
 
 The framework therefore proposes:
 
@@ -599,9 +599,9 @@ It demonstrates that the methods developed through the project are not a one-off
 
 ---
 
-# Practical Outcomes for HARC and NAPWR
+# Practical Outcomes for Multi-Collection Repositories and NAPWR
 
-Using this framework allows HARC and NAPWR to:
+Using this framework allows Multi-Collection Repositories and NAPWR to:
 
 ## 1. Preserve Original Community Knowledge
 
@@ -886,7 +886,7 @@ It is:
 
 The Linear Reciprocity Model provides a framework for understanding and operationalizing those relationships across modern archival information systems.
 
-Rather than replacing legacy systems, the HARC/NAPWR ingest model:
+Rather than replacing legacy systems, the Multi-Collection Repositories/NAPWR ingest model:
 
 - preserves them
 - interprets them
