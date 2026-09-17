@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The **Linear Reciprocity Model (LRM)** provides the conceptual and operational framework for ingest, reconciliation, transformation, description, and discovery within the HARC/NAPWR environment.
+The **Linear Reciprocity Model (LRM)** provides the conceptual and operational framework for ingest, reconciliation, transformation, description, and discovery within the MCR/NAPWR environment.
 
 Conventional migration models often imply a one-directional sequence:
 
