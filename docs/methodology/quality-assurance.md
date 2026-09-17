@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Quality assurance is distributed across the full HARC/NAPWR workflow.
+Quality assurance is distributed across the full MCR/NAPWR workflow.
 
 It is not a final proofreading step. It tests whether archival relationships remain intact as information moves among physical collections, spreadsheets, EAD, ArchivesSpace, digital storage, Omeka S, NAPWR, and public discovery.
 
