@@ -1,6 +1,6 @@
 # Archives Unification — Women Religious Collections
 
-## Federated archival interoperability for HARC and NAPWR
+## Federated archival interoperability for Muti-Collection Repositories and NAPWR
 
 This repository documents the methods, crosswalks, validation procedures, transformation tools, collection-level case records, and public-discovery architecture developed through the unification of women religious archival collections and the **NAPWR — Portal for the Archives of Women Religious**.
 
