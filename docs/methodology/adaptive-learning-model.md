@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The HARC/NAPWR adaptive learning model converts repeated archival problem-solving into reusable, transparent institutional knowledge.
+The MCR/NAPWR adaptive learning model converts repeated archival problem-solving into reusable, transparent institutional knowledge.
 
 The model is **human-supervised**. It does not assume that automated systems should independently determine archival meaning.
 
